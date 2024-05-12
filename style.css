@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 60%;
+    background: slateblue;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+}
+#heading{
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+#quote{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+   
+}
+
+
+.fas fa-quote-left{
+    margin-right: 19px;
+    font-size: 58px;
+}
+.fas fa-quote-right{
+    margin-left: 20px;
+    font-size: 58px;
+}
+#author{
+    align-self: flex-end;
+}
+
+
+#getQuote{
+    width:200px;
+    margin-top: 10px;
+    padding: 12px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgba(41,3,2,32,0.86);
+}
